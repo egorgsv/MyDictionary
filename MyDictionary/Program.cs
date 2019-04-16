@@ -47,9 +47,9 @@ namespace MyDictionary
            
         private const float loadfactor = 0.72f;
 
-        private int capacity = 2;
+        private static int capacity = 2; //не статик
 
-        public int Capacity
+        public static int Capacity //не статик
         {
             get { return capacity; }
             set
